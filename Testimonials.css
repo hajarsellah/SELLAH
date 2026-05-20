@@ -1,11 +1,63 @@
-body{
-    color: rgb(90, 180, 207);
-   }
+
 *{
-    text-align: center;
-    padding: 20;
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: 'Arial Narrow Bold', sans-serif;
 }
 header{
     color: white;
     background-color: rgb(43, 40, 40);
+    padding: 20px 60px;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav ul{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    list-style: none;
+}
+nav a{
+    color: white;
+    text-decoration: none;
+
+}
+nav button {
+    background-color: rgb(241, 6, 85);
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+nav a:hover{
+    color: aqua;
+}
+
+.hero{
+    background :linear-gradient(to left,rgb(59, 153, 224),rgb(58, 244, 182));
+    background-size: cover;
+    background-position: center;
+    color: white;
+    height: 90vh;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 50px;
+
+}
+.hero-content{
+    font-size: 30px;
+    line-height: 1.5;
+    margin-bottom: 15px;
+
+}
+.hero-content img{
+ width: 150px;
+ height: 130px;
+ border-radius: 50%;  
 }
