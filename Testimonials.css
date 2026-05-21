@@ -37,27 +37,33 @@ nav button {
 nav a:hover{
     color: aqua;
 }
+.nav1{
+    margin: 0px 50px;
+}
 
 .hero{
     background :linear-gradient(to left,rgb(59, 153, 224),rgb(58, 244, 182));
     background-size: cover;
     background-position: center;
     color: white;
-    height: 90vh;
+    height: 100vh;
     justify-content: center;
     align-items: center;
     text-align: center;
-    padding: 50px;
+    padding: 100px;
 
 }
 .hero-content{
-    font-size: 30px;
-    line-height: 1.5;
-    margin-bottom: 15px;
+    font-size: 20px;
+    line-height: 1;
+    margin-bottom: 10px;
 
 }
 .hero-content img{
  width: 150px;
  height: 130px;
  border-radius: 50%;  
+}
+.hero-content1 {
+    padding: 50px;
 }
